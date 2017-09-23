@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "367866313936",
+    "firebase_url": "https://glass-approach-158623.firebaseio.com",
+    "project_id": "glass-approach-158623",
+    "storage_bucket": "glass-approach-158623.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367866313936:android:53cc32dc1b7312bb",
+        "android_client_info": {
+          "package_name": "toytalk.mhacks.toytalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367866313936-vd2ktqn0d0poheag8be9ar31hhmphrli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkqYIokhNuKuTxGWY2Z4ger7d1NdTFqPk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
