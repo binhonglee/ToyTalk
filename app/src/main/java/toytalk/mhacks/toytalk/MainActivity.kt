@@ -1,23 +1,32 @@
 package toytalk.mhacks.toytalk
 
-import android.os.Build
+import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.annotation.RequiresApi
-import android.widget.Switch
+import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
-    var lightOne : Switch? = null
+    private var lightOneOff : Button? = null
+    private var lightOneOn : Button? = null
+    private var lightOneLbl : TextView? = null
 
-    @RequiresApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        lightOne = findViewById(R.id.LightOneBtn) as Switch
-        lightOne!!.setOnClickListener {
+        lightOneLbl = findViewById<TextView>(R.id.LightOneLbl) as TextView
+        lightOneOff = findViewById<Button>(R.id.LightOneOffBtn) as Button
+        lightOneOn = findViewById<Button>(R.id.LightOneOnBtn) as Button
 
+        lightOneOn!!.setOnClickListener {
+            lightOneLbl!!.setTextColor(Color.RED)
+        }
+
+        lightOneOff!!.setOnClickListener {
+            lightOneLbl!!.setTextColor(Color.GRAY)
         }
     }
+
 }
