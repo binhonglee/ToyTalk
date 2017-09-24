@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "367866313936-7d866t03pmmsug6lpem9l7o0gebbkrne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "toytalk.mhacks.toytalk",
+            "certificate_hash": "de6a65a0256d53aeebca235d6304fb48593b5962"
+          }
+        },
+        {
           "client_id": "367866313936-vd2ktqn0d0poheag8be9ar31hhmphrli.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367866313936-vd2ktqn0d0poheag8be9ar31hhmphrli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
